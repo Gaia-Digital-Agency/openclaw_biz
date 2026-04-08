@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "/home/azlan/.npm-global/bin/mcp-server-filesystem",
+      "args": [
+        "/opt/.openclaw-biz/workspace-case",
+        "/opt/.openclaw-biz/workspace-casey"
+      ]
+    },
+    "fetch": {
+      "command": "/home/azlan/.npm-global/bin/mcp-fetch",
+      "args": []
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--headless"]
+    }
+  }
+}

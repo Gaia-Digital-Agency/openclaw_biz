@@ -1,0 +1,20 @@
+{
+  "8d124626-88fc-4771-ac43-80082fdaa22c": {
+    "requestId": "8d124626-88fc-4771-ac43-80082fdaa22c",
+    "deviceId": "05a1ea37fa8598392e1a72a88acf936124506eabc74bef3e4c9f44b19f526476",
+    "publicKey": "2HrU7y8IrAyGUDCfTO3vwZn-8Py4OEqHB5kXr3Tlakc",
+    "platform": "linux",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin"
+    ],
+    "silent": false,
+    "isRepair": true,
+    "ts": 1775632615011
+  }
+}
