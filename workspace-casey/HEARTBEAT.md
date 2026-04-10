@@ -1,5 +1,7 @@
-# HEARTBEAT.md
+# HEARTBEAT.md Template
 
-- Review open analysis items, pending follow-ups, and material research changes in the next 72 hours.
-- Surface only meaningful updates that affect a recommendation, decision, or next action.
-- If nothing material changed, reply `HEARTBEAT_OK`.
+```markdown
+# Keep this file empty (or with only comments) to skip heartbeat API calls.
+
+# Add tasks below when you want the agent to check something periodically.
+```
