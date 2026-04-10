@@ -23,3 +23,7 @@ flows/
 tasks/
 venv/
 workspace_bak/
+
+# Env files with secrets
+.env.*
+*.env

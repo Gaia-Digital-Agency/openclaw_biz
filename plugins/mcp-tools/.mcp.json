@@ -14,6 +14,15 @@
     "playwright": {
       "command": "npx",
       "args": ["-y", "@playwright/mcp@latest", "--headless"]
+    },
+    "gmail": {
+      "command": "/home/azlan/.npm-global/bin/mcp-gmail",
+      "args": ["--oauth-path", "/home/azlan/google-oauth/gmail-oauth.json", "--credentials-path", "/home/azlan/google-oauth/gmail-credentials.json"]
+    },
+    "google-drive": {
+      "command": "/bin/bash",
+      "args": ["-c", "source /opt/.openclaw-biz/plugins/mcp-tools/.env.google-drive && exec /home/azlan/.npm-global/bin/mcp-google-drive"],
+      "env": {}
     }
   }
 }

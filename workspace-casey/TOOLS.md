@@ -1,40 +1,21 @@
-# TOOLS.md - Local Notes
+# TOOLS.md - Available Tools
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## MCP Servers
 
-## What Goes Here
+- `filesystem` — Read/write files in workspace directories
+- `fetch` — Fetch URLs and web content
+- `gmail` — Search, read, and manage emails (azlan@gaiada.com)
+- `google-drive` — Upload, download, list, and manage Google Drive files
 
-Things like:
+## Usage Priority
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+1. `gmail` for all email operations
+2. `google-drive` for all Drive file operations
+3. `fetch` for downloading URLs or web content
+4. `filesystem` for local file operations
 
-## Examples
+## Environment Notes
 
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+- Gmail account: azlan@gaiada.com
+- Google Drive: connected via OAuth (same Google account)
+- Workspace paths: /opt/.openclaw-biz/workspace-casey/
