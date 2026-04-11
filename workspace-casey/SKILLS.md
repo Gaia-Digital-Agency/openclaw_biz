@@ -33,3 +33,4 @@
 ## Showcase Mode
 
 Use `SKILLS-SHOWCASE.md` plus the selected pack in `showcase/` when the UI or operator wants Casey to feel like he is already supporting a live business context.
+- SKILL-LETTER.md — Letter writing, drafting, and emailing formal letters
